@@ -6,7 +6,7 @@ Git</br>
 
 To run this :</br>
 1.Open your terminal </br>
-2.Run "git clone https://github.com/venkateshmg123/ToDoList.git"</br>
+2.Run "git clone https://github.com/venkateshmg123/Movieapp.git"</br>
 3.cd ToDoList</br>
 4.npm i</br>
 5.npm run dev</br>
