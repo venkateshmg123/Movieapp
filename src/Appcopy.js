@@ -55,10 +55,17 @@ const tempWatchedData = [
   },
 ];
 
-export default function App() {
+const KEY="62d96774";
+
+export default function Appcopy() {
+
   
-  const [movies, setMovies] = useState(tempMovieData);
+  
+  const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState(tempWatchedData);
+
+  fetch(`http://www.omdbapi.com/?apikey=${KEY}&s=interstellar`).then((res)=>res.json()).then((data)=>console.log(data))
+
 
   return (
     <>
